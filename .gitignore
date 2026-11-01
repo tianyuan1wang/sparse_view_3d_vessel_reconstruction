@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Local data, additional models, and generated reconstructions stay private.
+/data/
+/outputs/
+/reconstructions/
+/posterior_samples/
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+!checkpoints/segmentation_model.pt
+!checkpoints/diffusion_model.pt
+*.nii
+*.nii.gz
+*.dcm
+*.npy
+*.npz
+
+# Runtime artifacts.
+*.out
+*.err
+*.log
+/.locks/
+/tmp/
+

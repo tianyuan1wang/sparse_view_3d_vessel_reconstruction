@@ -1,0 +1,6 @@
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+# Bundle inference checkpoints directly for ordinary clones and downloads.
+*.pt -filter -diff -merge -text
